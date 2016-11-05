@@ -70,7 +70,7 @@ var application = angular.module('App');
        shortDesc: "Med Hjälp av en Arduino + en web-app + ThingSpeak kan jag starta min kaffekokare var jag än är i världen.",
        desc: ["Jag var trött på att inte kunna starta och stänga min kaffekokare med mobiltelefonen. Till följd av detta utvecklade jag med hjälp av en Arduino + en Node-app + Thingspeak ett sätt att göra detta. ",
                 " Arduinokortet kopplade jag och programmerade så att den lyssnar på en Thingsspeak-kanal. Beroende på vilken status (1/0) kanalen har, slår arduinokortet från eller till ett relä som i sin tur startar eller stänger kaffekokaren (eller godtycklig pryl som kräver ett vägguttag). Thingspeak-kanalen kan uppdateras från en enkel web-app som helt enkelt kan slå av eller på kaffekokaren från var som helts i världen, förutsatt att man har tillgång till internet."],
-       pics: [ "/Shared/Services/Content/coffe/app.png",
+       pics: [ "/Shared/Services/Content/coffe/application.png",
                "/Shared/Services/Content/coffe/arduino.png",]
      },
 
@@ -80,8 +80,7 @@ var application = angular.module('App');
       shortDesc: "Som en del i ett forskningsprojekt på SWECO och Linköpings Universitet modellerade jag ruttflöden i Stockholm baserat på Google-data",
       desc: ["Examensarbetet finns publicerat på: http://www.diva-portal.org/smash/get/diva2:946024/FULLTEXT01.pdf",
               ""],
-      pics: [ "/Shared/Services/Content/ex/network.png",
-              "/Shared/Services/Content/ex/network.png",]
+      pics: [ "/Shared/Services/Content/ex/road_network.png"]
      },
 
           ];
