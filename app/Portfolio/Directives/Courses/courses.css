@@ -1,0 +1,8 @@
+.panel-default{
+	border:0px;
+
+}
+
+.panel-title>.small, .panel-title>.small>a, .panel-title>a, .panel-title>small, .panel-title>small>a{
+	display: block;
+}

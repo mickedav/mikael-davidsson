@@ -1,0 +1,23 @@
+
+#footer {
+	margin-top: 200px;
+	background-color: #34495e;
+	color: #fff;
+}
+
+.test	{
+	display: inline-block;
+}
+
+
+.footertext > p{
+	font-size: 14px;
+}
+
+.footertext{
+	padding-bottom: 90px;
+}
+
+#footer a {
+	color: #fff;
+}

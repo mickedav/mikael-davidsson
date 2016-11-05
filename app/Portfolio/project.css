@@ -1,0 +1,15 @@
+.carousel-control.left, .carousel-control.right{ 
+	background: none !important; 
+	filter: progid:none !important; 
+	color: #34495e;
+}
+
+.project-desc-wrapper	{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.slide	{
+	display:	block;
+	margin-bottom: 50px;
+}

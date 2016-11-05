@@ -1,0 +1,45 @@
+
+
+<h2> Utbildning </h2>
+Detta är de kurser jag hittills har läst på universitet
+
+<div class="row">
+  <accordion close-others="oneAtATime">
+    <div class ="col-sm-4">
+    <accordion-group  is-open="isopen"  ng-repeat="course in courses | filter:{type:1} | orderBy: 'name'">
+      <accordion-heading>
+        {{course.name}}
+        <i class="pull-right glyphicon"></i>
+      </accordion-heading>
+        <p><b>{{course.id}} - {{course.hp}} hp</b></p>
+        <br>
+        {{course.desc}}
+    </accordion-group>
+  </div>
+
+    <div class ="col-sm-4">
+    <accordion-group  is-open="isopen"  ng-repeat="course in courses | filter:{type:2} | orderBy: 'name'">
+      <accordion-heading>
+        {{course.name}}
+        <i class="pull-right glyphicon" ></i>
+      </accordion-heading>
+        <p><b>{{course.id}} - {{course.hp}} hp</b></p>
+        <br>
+        {{course.desc}}
+    </accordion-group>
+  </div>
+
+  <div class ="col-sm-4">
+    <accordion-group  is-open="isopen"  ng-repeat="course in courses | filter:{ type:3} | orderBy: 'name'">
+      <accordion-heading>
+        {{course.name}}
+        <i class="pull-right glyphicon" ></i>
+      </accordion-heading>
+        <p><b>{{course.id}} - {{course.hp}} hp</b></p>
+        <br>
+        {{course.desc}}
+    </accordion-group>
+  </div>
+
+
+</div>

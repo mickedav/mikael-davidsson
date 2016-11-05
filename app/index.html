@@ -1,0 +1,66 @@
+<!doctype html>
+ <html class="no-js">
+    <html ng-app="App">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/Shared/Nav/navDirective.css">
+    <link rel="stylesheet" href="/Shared/Footer/footer.css">
+    <link rel="stylesheet" href="/Home/home.css">
+    <link rel="stylesheet" href="/Portfolio/Directives/Projects/projects.css">
+    <link rel="stylesheet" href="/Portfolio/Directives/Courses/courses.css">
+    <link rel="stylesheet" href="/Portfolio/portfolio.css">
+    <link rel="stylesheet" href="/Portfolio/project.css">
+    <link rel="stylesheet" href="/Shared/app.css">
+    <link rel="stylesheet" href="/bower_components/angular-carousel/dist/angular-carousel.css">
+    <link rel="stylesheet" href="Game/font.css">
+
+  </head>
+
+  <body>
+
+    <nav-bar></nav-bar>
+    <div class="main" ng-view></div>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-68408602-1');
+  ga('send', 'pageview');
+
+</script>
+
+    <script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js"></script>
+    <script src="/bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="/bower_components/angular/angular.js"></script>
+    <script src="/bower_components/angular-route/angular-route.js"></script>
+    <script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+
+    <script src="/bower_components/scrollr/dist/skrollr.min.js"></script>
+
+
+    <script src="app.js"></script>
+
+    <script src="/Shared/Services/projectsService.js"></script>
+
+    <script src="/Shared/Nav/navDirective.js"></script>
+
+    <script src="/Portfolio/portfolioCtrl.js"></script>
+    <script src="/Portfolio/projectCtrl.js"></script>
+
+    <script src="/Portfolio/Directives/Courses/coursesDirective.js"></script>
+    <script src="/Portfolio/Directives/Projects/projectsDirective.js"></script>
+
+
+
+
+
+</body>
+</html>

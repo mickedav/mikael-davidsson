@@ -1,0 +1,33 @@
+.projTitle	{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background-color: rgba(52, 73, 94, 0.9);
+	color: #fff;
+}
+
+.project:hover .projTitle{
+	background-color: rgba(52, 73, 94, 1 );
+}
+.project	{
+	position: relative;
+
+}
+
+.projTitle:hover	{
+
+}
+
+.project-wrapper	{
+	display: block;
+	position: relative;
+	
+}
+
+.projText	{
+	margin-left: 20px;
+}
+
+.desc	{
+	font-size: 15px;s
+}
