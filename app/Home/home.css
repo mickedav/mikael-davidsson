@@ -1,25 +1,183 @@
+body {
+	font-family: 'Maven Pro', sans-serif;
+
+}
 
 #intro{
-	background-image: url("content/bg5.jpg");
+	background-image: url("content/bg7.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: center center; 
+	background-position: center center;
 	height: auto !important;
 	min-height: 100%;
+	text-align: center;
+	font-family: 'Maven Pro', sans-serif;
 }
+
+.content-wrapper{
+	width: auto;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+}
+
 
 .title{
-	position: absolute;
-	text-align: center;
-	top: 50%;
-	width: 100%;
-	transform: translateY(-50%);
-    background-color:rgba(255,255,255,0.5);
+	color: #eee;
+	font-size: 40px;
+	font-weight: 900;
+	letter-spacing: 10px;
+	text-transform: uppercase;
+	padding: 10px 20px;
+	line-height: 75px;
+  background-color:rgba(46, 178, 103, 1);
+	text-transform: uppercase;
+	display: inline-block;
 
 }
+.name{
+	text-align: center;
+	color: #eee;
+  font-size: 40px;
+  font-weight: 900;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  padding-bottom: 0px;
+  line-height: 75px;
+	text-transform: uppercase;
+}
 
-.title > h1{ 
-	opacity:1;
-	padding-bottom: 18px;
+.section-title {
+	color: rgb(34, 34, 34);
+	text-align: center;
+	letter-spacing: 5px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+	padding-top: 50px;
+  margin-bottom: 10px;
+}
 
+.under-section-title{
+	letter-spacing: 5px;
+	font-size: 10px;
+	font-weight: 400;
+	text-transform: uppercase;
+	text-align: center;
+	color: #777;
+	padding-bottom: 30px;
+}
+
+.under-section-text{
+	line-height: 21px;
+	letter-spacing: 2px;
+	font-size: 11px;
+	color: #777;
+}
+.upper{
+	color: rgb(46, 178, 103);
+}
+
+.profile-pic{
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	overflow: hidden;
+	text-align: center;
+	display:inline-block;
+	float:left;
+
+}
+.profile-pic-image{
+	width: 100%;
+	height: auto;
+}
+
+.right-align {
+	text-align: right;
+}
+
+.small-name{
+	margin-top: 20px;
+	text-transform: uppercase;
+	font-size: 14px;
+	letter-spacing: 3px;
+}
+
+.small-title{
+	color: #2eb267;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	font-size: 11px;
+}
+
+.progress-bar {
+	float: left;
+	width: 0;
+	height: 100%;
+	font-size: 12px;
+	line-height: 20px;
+	color: #fff;
+	text-align: center;
+	background-color: #2eb267;
+	-webkit-transition: width .6s ease;
+	transition: width .6s ease;
+}
+
+.aboutMe{
+	padding: 10px 40px;
+}
+
+.skill-text{
+	text-transform: uppercase;
+	color: #222222;
+  font-size: 10px;
+  letter-spacing: 1px;
+  line-height: 20px;
+  margin-bottom: 0px;
+  margin-top: 15px;
+}
+
+.progress {
+	margin-top: 5px;
+	background-color: #eee;
+	height: 18px;
+	margin-bottom: 8px;
+	margin-top: 8px;
+	overflow: hidden;
+	background-color: #f5f5f5;
+	border-radius: 4px;
+}
+
+
+.marker{
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 100px;
+}
+
+.filler{
+	padding-bottom: 200px;
+	font-family: 'Maven Pro', sans-serif;
+}
+
+.h5-profile{
+	text-transform: uppercase;
+	font-size: 10px;
+	letter-spacing: 1px;
+	line-height: 15px;
+	font-weight: 500;
+	line-height: 1.1;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.profile-under{
+	padding-top: 50px;
+}
+
+.h5-profile span{
+	color: rgb(46, 178, 103);
 }

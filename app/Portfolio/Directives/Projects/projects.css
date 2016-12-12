@@ -1,33 +1,73 @@
 .projTitle	{
-	position: absolute;
-	bottom: 0;
 	width: 100%;
 	background-color: rgba(52, 73, 94, 0.9);
 	color: #fff;
+	height: auto;
 }
 
-.project:hover .projTitle{
-	background-color: rgba(52, 73, 94, 1 );
-}
 .project	{
+	padding: 0px;
+	border: 0px;
 	position: relative;
-
+  overflow: hidden;
+  height: 300px;
+  text-align: center;
+	background-size: cover;
+	background-position: center center;
 }
 
-.projTitle:hover	{
-
+.project:hover .projText{
+	opacity: 1;
+	padding-top: 20%;
 }
 
-.project-wrapper	{
-	display: block;
-	position: relative;
-	
+.project-wrapper{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.4);
+	-webkit-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+}
+
+.project:hover .project-wrapper{
+	background-color: rgba(0,0,0,0.8);
+}
+
+.img-responsive{
+	border:0px;
+	padding: 0px;
+	border-radius: 0px;
 }
 
 .projText	{
-	margin-left: 20px;
+  padding-top: 15%;
+  opacity: 0;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
 }
 
+.project-name{
+	color: rgb(255, 255, 255);
+	font-size: 12px;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	font-weight: 400;
+}
 .desc	{
 	font-size: 15px;s
+}
+
+.testar{
+	background-color: rgb(238, 238, 238);
+}
+
+.lightefy{
+	color: rgb(255, 255, 255);
 }

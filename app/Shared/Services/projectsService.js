@@ -6,6 +6,8 @@ var application = angular.module('App');
 
   application.factory('projectsService', function () {
 
+
+
   var projects = [
 
       {

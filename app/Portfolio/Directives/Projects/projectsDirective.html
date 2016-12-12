@@ -1,23 +1,15 @@
 
-<h2> Projekt </h2>
-Detta är olika projekt som jag gjort, både i skolan och på fritiden
+<h1 class="section-title ">Projects</h1>
+<div class="marker">______ </div>
 
-<div class="row">
 
-	<a href='#/portfolio/{{project.id}}' title='{{project.name}}'  ng-repeat="project in projects">
+	<div class="col-lg-4 col-sm-4 col-4 project" ng-repeat="project in projects" ng-style="{'background-image':'url({{project.pics[0]}})'}">
 
-		<div class="col-lg-6 col-sm-6 col-6 project">
-			<div class="project-wrapper">
-				<div class="projTitle">
+	<a href='#/portfolio/{{project.id}}' title='{{project.name}}'>
+				<div class="project-wrapper">
 					<div class="projText">
-						<h3> {{project.name}} </h3>
-						<p class="desc"> {{project.shortDesc}} </p>
+						<h3 class="project-name"> {{project.name}} </h3>
 					</div>
-				</div>
-							<img ng-src='{{project.pics[0]}}' class="thumbnail img-responsive">
 			</div>
-
-
-		</div>
-	</a>
-</div>
+		</a>
+	</div>
