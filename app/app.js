@@ -27,7 +27,6 @@ angular
     $routeProvider
       .when('/portfolio/:id', {
         templateUrl: "/Portfolio/project.html",
-        controller: "projectCtrl"
     })
 
       .otherwise({

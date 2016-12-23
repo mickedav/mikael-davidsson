@@ -3,10 +3,9 @@
 <div class="marker">______ </div>
 
 
-<div class="col-lg-4 col-sm-4 col-4 project" ng-repeat="project in projects" ng-style="{'background-image':'url({{project.pics[0]}})'}" >
+<div class="col-lg-4 col-sm-4 col-4 project" ng-repeat="project in projects" ng-style="{'background-image':'url({{project.pics[0]}})'}">
 
-	<!-- <a href='#/portfolio/{{project.id}}' title='{{project.name}}'> -->
- <a data-toggle="modal" href="#MyModal-{{project.id}}">
+ <a data-toggle="modal" href=".MyModal-{{project.id}}">
 	 <div class="project-wrapper">
 		 <div class="projText">
 			 <h3 class="project-name"> {{project.name}} </h3>
@@ -14,11 +13,11 @@
 	 </div>
  </a>
 
- <div class="modal fade" id="MyModal-{{project.id}}">
+ <div class="modal fade MyModal-{{project.id}}">
 	 <div class="modal-dialog">
 		 <div class="modal-content">
 
-			 <!-- <button type="button" class="close" data-dismiss="modal" title="Close"> <span class="glyphicon glyphicon-remove"></span></button> -->
+			 
 			 <img class="project-pic" src="{{project.pics[0]}}">
 			 <div class="modal-body">
 				 <h1 class="modal-project-title"> {{project.name}} </h1>
@@ -34,4 +33,7 @@
 	 </div>
  </div>
 
+ 
 </div>
+
+ 	

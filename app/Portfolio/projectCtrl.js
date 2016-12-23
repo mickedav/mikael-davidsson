@@ -7,4 +7,5 @@ application.controller("projectCtrl", function($scope, $routeParams, projectsSer
 	$scope.projects = projectsService.one(currProject);
   	$scope.pics = projectsService.one(currProject).pics;
   	$scope.descs = projectsService.one(currProject).desc;
+	
 });
