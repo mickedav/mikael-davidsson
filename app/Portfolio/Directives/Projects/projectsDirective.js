@@ -16,11 +16,6 @@
                    console.log(response.data);
                });
 
-               $scope.modalId = function(){
-                   console.log("SDFSDFSDFD");
-                   return "MyModal-1";
-               };
-
             }
 
         return {
