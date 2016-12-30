@@ -29,6 +29,11 @@ angular
         templateUrl: "/Portfolio/project.html",
     })
 
+    $routeProvider
+      .when('/comet', {
+      templateUrl: "/Comet/comet.html",
+    })
+
       .otherwise({
         redirectTo: '/'
       });
