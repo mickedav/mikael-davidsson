@@ -31,9 +31,9 @@ var levels = [level1, level2, lastLevel];
 
 var level = levels[currentLevel];
 level.collison = new Collision(level1, player);
-
+	
 var isInitialised = false;
-function start(){
+function startcv(){
 	if(!isInitialised){
 		isInitialised = true;
 		setInterval(function(){
