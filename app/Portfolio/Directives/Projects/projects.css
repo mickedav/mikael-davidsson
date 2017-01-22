@@ -61,11 +61,11 @@
 	font-weight: 400;
 }
 .desc	{
-	font-size: 15px;s
+	font-size: 15px;
 }
 
 .testar{
-	background-color: rgb(238, 238, 238);
+	background-color: #1a1a1a;
 }
 
 .lightefy{
@@ -99,4 +99,24 @@
 .close {
 	color: rgb(46, 178, 103);
 	opacity: 1;
+}
+
+.project-header {
+	color: #ffffff;
+}
+
+.lang-pills{
+	font-family: 'Maven Pro', sans-serif;
+	color: white;
+	background-color: rgb(46, 178, 103);
+	display: inline-block;
+	margin-left: 2px;
+	margin-right: 2px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-left: 3px;
+	padding-right: 0px;
+	letter-spacing: 2px;
+	font-size: 9px;
+	text-transform: uppercase;
 }

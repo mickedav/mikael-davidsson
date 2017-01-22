@@ -12,8 +12,8 @@
             
                projectsService.getAll()
                .then(function(response){
-                   $scope.projects = response.data;
-                   console.log(response.data);
+                   var projects = response.data;
+                   $scope.projects = projects;
                });
 
             }

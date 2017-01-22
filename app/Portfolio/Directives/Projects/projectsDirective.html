@@ -1,6 +1,6 @@
 
-<h1 class="section-title ">Projects</h1>
-<div class="marker">______ </div>
+<h1 class="section-title project-header">Projects</h1>
+<div class="marker project-header">______ </div>
 
 
 <div class="col-lg-4 col-sm-4 col-4 project" ng-repeat="project in projects" ng-style="{'background-image':'url({{project.pics[0]}})'}">
@@ -9,6 +9,9 @@
 	 <div class="project-wrapper">
 		 <div class="projText">
 			 <h3 class="project-name"> {{project.name}} </h3>
+			 <p class="lang-pills" ng-repeat="l in project.lang">
+				 {{l}}
+				 </p>
 		 </div>
 	 </div>
  </a>
@@ -21,7 +24,11 @@
 			 <img class="project-pic" src="{{project.pics[0]}}">
 			 <div class="modal-body">
 				 <h1 class="modal-project-title"> {{project.name}} </h1>
-				 {{project.desc[0]}}
+				 <p class="under-section-text" ng-repeat="description in project.desc">
+					 {{description}}
+				 </p>
+				 
+				 <a href="{{project.html}}"> {{project.htmltext}} </a>
 
 			 </div>
 			 <div class="modal-footer">
